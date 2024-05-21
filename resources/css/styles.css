@@ -1,0 +1,148 @@
+/* head */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: purple; /* f8f9fa */
+}
+
+.header-left{
+    color: white;
+    text-decoration: none;
+    border-radius: 12px; 
+    font: oblique bold 120% cursive;
+    background-color: #cB9bde;
+    color: black;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.header-right a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px; 
+    font: oblique bold 120% cursive;
+    background-color: #cB9bde;
+    color: black;
+}
+
+.header-right a:hover {
+    color: #e0e6ec;
+}
+
+/* body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C8A2C8;
+    font-family: 'Comic Sans MS'
+    
+}
+
+h1{
+    text-align: center;
+    font: oblique bold 250% cursive;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    font: oblique bold 100% cursive;
+}
+
+th {
+    background-color: purple;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #929292; /* Cambia el color del borde a negro */
+}
+
+tr:hover {background-color: #929292;}
+
+a {
+    color: black; 
+    transition: color 0.3s ease; /* Agrega una transición suave al cambiar el color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    background-color: #cB9bde;
+}
+
+a:hover {
+    color: rgb(255, 255, 255); /* Cambia el color a negro sólido al pasar el mouse */
+    background-color: #5a6268;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-button {
+    background-color: #25001e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font: oblique bold 120% cursive;
+    border-radius: 12px;    
+}
+
+.delete-button:hover {
+    background-color: #781d77;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+#IR,#VA{
+    background-color: #653463;
+    border-radius: 12px; 
+    color: white;
+}
+
+#EDIT, #CA{
+    background-color: #752174;
+    border-radius: 12px; 
+    color: white;
+}
+
+
+#IR:hover,#VA:hover{
+    background-color: #f0b6eb;
+    border-radius: 12px; 
+    color: white;
+}
+
+#EDIT:hover, #CA:hover{
+    background-color: #f0b6eb;
+    border-radius: 12px; 
+    color: white;
+}
+
+
+
+table{
+    width: 100%;
+  
+}
+
+
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 12px;
+}
+table tr:first-child th:last-child {
+    border-top-right-radius: 12px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}

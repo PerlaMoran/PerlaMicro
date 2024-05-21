@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color:  #C8A2C8;   
+    color: black; 
+    
+}
+
+h1 {
+    text-align: center;
+    font: oblique bold 300% cursive
+}
+
+#formulario {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;  
+    font: oblique bold 120% cursive;
+}
+
+.iform {
+    margin-bottom: 20px;
+}
+
+.iform label {
+    display: block;
+    margin-bottom: 5px;
+    font: oblique bold 120% cursive
+}
+
+.iform input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #A96DA9;
+}
+
+.iset {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #C8A2C8;
+    background-color: #C8A2C8;
+    font: oblique bold 120% cursive
+}
+
+.iset:hover {
+background-color: #A96DA9;
+}
+
+a {
+    color: white; /* Cambia el color a negro translúcido */
+    transition: color 0.3s ease; /* Agrega una transición suave al cambiar el color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    background-color: black;
+    font: oblique bold 120% cursive
+}
+
+a:hover {
+    color: rgb(255, 255, 255); /* Cambia el color a negro sólido al pasar el mouse */
+    background-color: #495057;
+    margin: 0 auto;
+}
+
+.iform select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.iform label {
+    display: block;
+    margin-top: 5px;
+}
+
+#REG{
+    font: oblique bold 120% cursive;
+    background-color: purple;
+    color: white;
+    border-radius: 12px;
+
+}
+
+#REG:hover{
+    background-color: #495057;    
+}
+
+#Primera1{
+    margin-left: 10%;
+    display: inline-block;
+    background-color: purple; /* Lila */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    float: left;
+}
+
+#Primera1:hover{
+    background-color: #A96DA9; /* Un tono más oscuro de lila */
+    transform: scale(1.1);
+}
+
+
+#Primera2{
+    margin-left: 1%;
+    display: inline-block;
+    background-color: purple; /* Lila */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    float: left;
+}
+
+#Primera2:hover{
+    background-color: #A96DA9; /* Un tono más oscuro de lila */
+    transform: scale(1.1);
+}
+
+
+#Imghome{
+
+    margin-left: 10%;
+    width: 40%;
+    height: 30%;
+    float: left;
+}
